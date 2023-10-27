@@ -15,7 +15,7 @@ const double k_dSpeedOfSoundMetersPerSecond = 345.0;
 /// Speed of sound in centimeters per second in air at standard temperature and pressure
 const double k_dSpeedOfSoundCmPerSecond = k_dSpeedOfSoundMetersPerSecond * 100;
 /// Number of halftones in an octave.
-const int k_nHalfTonesInOctave = 12;
+const double k_nHalfTonesInOctave = 12.0;
 /// Frequency of note C0; used as the reference frequency in computing the frequencies of other notes.
 const double k_dFrequencyRef = 16.35;
 // ////////////////////////////////////////////////////////////////////////////////
